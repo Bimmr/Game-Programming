@@ -1,0 +1,25 @@
+Tower Defense
+-----------------------
+Theme: Computer Virus
+
+- Enemies are virus things
+
+Enemy
+----------------
+- Save enemies as they spawn into a list
+- When they reach last waypoint remove
+
+-TODO: Check the odd distance off from the turning point, and add a part of that to earlier moves 
+
+Enemy Pathing
+----------------
+- Level saves x,y of turning point for the enemies
+- Save rectangle from one turning point to the next turning point(path rectangle)
+- When enemies get to last turning point, lower players health
+
+Towers
+----------------
+- When placing tower make sure it's rectangle doesn't intersect with path rectangles
+- Radius from tower to determine if enemy is within range
+- Iterate through list of enemies and grab first enemy within range to attack
+- Can upgrade to other towers

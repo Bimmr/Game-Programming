@@ -1,0 +1,29 @@
+TowerDefense : Game
+	GameScreen : Screen
+		Player
+		Level1 : Level
+			BasicTower : Tower
+			BasicTower : Tower
+			BasicTower : Tower
+			BasicTower : Tower
+			BasicTower : Tower
+			PointA : TurningPoint
+			PointB : TurningPoint
+			PointC : TurningPoint
+			PointD : TurningPoint
+			PointE : TurningPoint
+			PointF : TurningPoint
+			Wave1 : Wave
+				BasicVirus : Virus
+				BasicVirus : Virus
+				BasicVirus : Virus
+				BasicVirus : Virus
+				BasicVirus : Virus
+			Wave2 : Wave
+				BasicVirus : Virus
+				BasicVirus : Virus
+				BasicVirus : Virus
+				BasicVirus : Virus
+				BasicVirus : Virus
+	MenuScreen : Screen
+		Menu
